@@ -26,5 +26,14 @@ public class Account {
         this.name = capitalize(name);
     }
 
+    public static String translit (String arg){
+        private static String ukrAlphabet = "абвгдеєжзиіїйклмнопрстуфхцчшщьюя";
+
+        private static String translitRepl[] = {"a","b","v","g","d","e","je","zh","z","y","i","ji", "j",
+                "k","l","m","n","o","p","r","s","t","u","f","h","c",
+                "ch","sh","shh","'","ju","ja"};
+        return arg;
+    }
+
 
 }
